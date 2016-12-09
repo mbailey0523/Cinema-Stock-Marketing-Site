@@ -1,0 +1,130 @@
+.text-style-4 {
+	font-family: Helvetica;
+	font-size: 100px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: center;
+	color: #29363b;
+	color: var(--dark);
+}
+
+.text-style-6 {
+	font-family: Helvetica;
+	font-size: 64px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: center;
+	color: #ff5533;
+	color: var(--orangey-red);
+}
+
+.text-style-5 {
+	font-family: Helvetica;
+	font-size: 45px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: center;
+	color: #3a4c53;
+	color: var(--charcoal-grey);
+}
+
+.text-style-12 {
+	font-family: Helvetica;
+	font-size: 36px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: center;
+	color: #ff5533;
+	color: var(--orangey-red);
+}
+
+.text-style-7 {
+	font-family: Helvetica;
+	font-size: 36px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: center;
+	color: #29363b;
+	color: var(--dark);
+}
+
+.text-style {
+	font-family: Helvetica;
+	font-size: 24px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: center;
+	color: #b2ebf1;
+	color: var(--duck-egg-blue);
+}
+
+.text-style-2 {
+	font-family: Helvetica;
+	font-size: 24px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: center;
+	color: #e7eced;
+	color: var(--pale-grey);
+}
+
+.text-style-9 {
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: center;
+	color: #ff5533;
+	color: var(--orangey-red);
+}
+
+.text-style-10 {
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: center;
+	color: #e7eced;
+	color: var(--pale-grey);
+}
+
+.text-style-3 {
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: center;
+	color: #e7eced;
+	color: var(--pale-grey);
+}
+
+.text-style-8 {
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	text-align: center;
+	color: #29363b;
+	color: var(--dark);
+}
+
+.text-style-11 {
+	font-family: Helvetica;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	color: #e7eced;
+	color: var(--pale-grey);
+}
