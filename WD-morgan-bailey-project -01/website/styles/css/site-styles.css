@@ -58,11 +58,11 @@ summary {
 }
 
 .navbar-default {
-  background-color: #005a63;
-  border-top-color: #005a63;
-  border-right-color: #005a63;
-  border-bottom-color: #005a63;
-  border-left-color: #005a63;
+  background-color: #f8f8f8;
+  border-top-color: #f8f8f8;
+  border-right-color: #f8f8f8;
+  border-bottom-color: #f8f8f8;
+  border-left-color: #f8f8f8;
 }
 
 .container {
@@ -221,7 +221,7 @@ textarea {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #005a63;
+  background-color: #f8f8f8;
 }
 
 .navbar-toggle .icon-bar + .icon-bar {
@@ -258,7 +258,7 @@ a:focus {
   	font-style: inherit;
   	font-stretch: inherit;
   	text-align: center;
-  	color: #e7eced;
+  	color: #777777;
 }
 
 .collapse {
