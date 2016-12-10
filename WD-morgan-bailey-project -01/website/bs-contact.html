@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Fixed Top Navbar Example for Bootstrap</title>
+    <title>Cinema Stock: Contact</title>
 
     <!-- Bootstrap core CSS -->
     <link href="styles/css/bootstrap.min.css" rel="stylesheet">
@@ -20,6 +20,9 @@
     <!-- Custom styles for this template -->
     <link href="styles/css/navbar-fixed-top.css" rel="stylesheet">
     <link href="styles/css/site-styles.css" rel="stylesheet">
+
+    <!-- JavaScript Scripts -->
+    <script src="scripts/form_validation.js"></script>
   </head>
   <body>
 
@@ -40,7 +43,7 @@
             <ul class="nav navbar-nav navbar-right">
               <li><a href="bs-features.html">Features</a></li>
               <li><a href="bs-faq.html">FAQ</a></li>
-              <li class="active"><a href="bs-contact.html">Contact<span class="sr-only">(current)</span></a></li>
+              <li><a href="bs-contact.html">Contact<span class="sr-only">(current)</span></a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -52,8 +55,7 @@
       <div class="jumbotron">
           <h1> Contact Us </h1>
           <h2>Organize. Search. Share.</h2>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-        </p>
+          <!-- <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a> -->
       </div>
 
     </div> <!-- /container -->
@@ -63,65 +65,73 @@
             Duis iaculis mattis elementum. Vivamus turpis ex, scelerisque sed iaculis in, feugiat vel sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam ac neque ac dolor pretium suscipit vel eget odio. Mauris arcu nulla, blandit a ligula quis, convallis fermentum ipsum. Curabitur a metus sodales, molestie sapien vitae, fermentum nisl. Cras pulvinar magna quam, rhoncus luctus mi hendrerit tincidunt. Integer lorem turpis, placerat id urna vel, gravida hendrerit elit. Praesent et orci quis est efficitur auctor. Aenean eu egestas sapien, vel posuere sapien.
         </p>
     </div>
+    <input type="button" value="Email Us" onclick="return(show_form());">
     <div>
         <h3>Send us an email.</h3>
-        <form>
-            To:<br>
-            From:<input type="text" name="firstname" value=""><br><br>
+        <form name="sendEmail" onsubmit="return(validate());">
+            <label>To:</label>
+            <input type="text" name="to" id="to" value="cinema_stock@email.com" size="21" readonly="readonly"><br>
+            <label>From:</label>
+            <input type="text" name="from" value=""><br><br>
 
-            Subject:
-            <select name="Subject">
+            <label>Subject:</label>
+            <select name="subject">
+                <option value="-1">[choose one]</option>
                 <option value="question">Questions not in FAQs</option>
                 <option value="bug">Report a Bug</option>
                 <option value="suggestions">New Feature Suggestions</option>
                 <option value="fan">Fan Mail</option>
             </select><br><br>
 
-            First name:<br>
+            <label>First name:</label>
             <input type="text" name="firstname" value=""><br>
-
-            Last name:<br>
+            <label>Last name:</label>
             <input type="text" name="lastname" value=""><br><br>
 
-            <textarea name="message" rows="10" cols="30">
+            <label>Message:</label><br>
+            <textarea name="message" id="message" rows="15" cols="70" required>
             </textarea><br><br>
 
             <input type="submit" value="Send">
         </form>
     </div>
     <div>
+        <p> Add a button that when clicked displays the most recently submited feature request.
+        </p>
+    </div>
+    <div>
         <img src="images/apple.png" alt="download on the apple store">
-        <img src="images/google play.png" alt="download on the apple store">
+        <img src="images/google_play.png" alt="download on the google play">
         <p>
             Download Cinema Stock from the App Store for iOS or from Google Play for Android.
         </p>
     </div>
     <footer>
         <div>
+            <h5>Cinema Stock</h5>
             <ul>
-                <h5>Cinema Stock</h5>
                 <li>Organize</li>
                 <li>Search</li>
                 <li>Share</li>
-                <li>Learn more ></li>
+                <li><a href="bs-features.html">Learn more ></a></li>
             </ul>
         </div>
         <div>
+            <h5>FAQs</h5>
             <ul>
-                <h5>FAQs</h5>
                 <li>Organize</li>
                 <li>Search</li>
                 <li>Share</li>
-                <li>Learn more ></li>
+                <li><a href="bs-faqs.html">Learn more ></a></li>
             </ul>
         </div>
         <div>
+            <h5>Contact Us</h5>
             <ul>
-                <h5>Contact Us</h5>
                 <li>Organize</li>
                 <li>Search</li>
                 <li>Share</li>
-                <li>Learn more ></li>
+                <li><a href="bs-contact.html">Learn more ></a></li>
             </ul>
         </div>
     </footer>
