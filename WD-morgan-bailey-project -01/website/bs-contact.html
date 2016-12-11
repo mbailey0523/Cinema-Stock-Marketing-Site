@@ -55,7 +55,6 @@
       <div class="jumbotron">
           <h1> Contact Us </h1>
           <h2>Organize. Search. Share.</h2>
-          <!-- <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a> -->
       </div>
 
     </div> <!-- /container -->
@@ -65,12 +64,12 @@
             Duis iaculis mattis elementum. Vivamus turpis ex, scelerisque sed iaculis in, feugiat vel sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam ac neque ac dolor pretium suscipit vel eget odio. Mauris arcu nulla, blandit a ligula quis, convallis fermentum ipsum. Curabitur a metus sodales, molestie sapien vitae, fermentum nisl. Cras pulvinar magna quam, rhoncus luctus mi hendrerit tincidunt. Integer lorem turpis, placerat id urna vel, gravida hendrerit elit. Praesent et orci quis est efficitur auctor. Aenean eu egestas sapien, vel posuere sapien.
         </p>
     </div>
-    <input type="button" value="Email Us" onclick="return(show_form());">
+    <!-- <input type="button" value="Email Us" onclick="return(show_form());"> -->
     <div>
         <h3>Send us an email.</h3>
-        <form name="sendEmail" onsubmit="return(validate());">
+        <form name="sendEmail" action="email.php" method="post" onsubmit="return(validate());">
             <label>To:</label>
-            <input type="text" name="to" id="to" value="cinema_stock@email.com" size="21" readonly="readonly"><br>
+            <input type="text" name="to" id="to" value="cinema_stock@email.com" size="25" readonly="readonly"><br>
             <label>From:</label>
             <input type="text" name="from" value=""><br><br>
 

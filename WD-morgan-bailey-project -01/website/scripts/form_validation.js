@@ -28,7 +28,3 @@ function validate() {
     }
     return (true);
 }
-
-function show_form() {
-    return;
-}
