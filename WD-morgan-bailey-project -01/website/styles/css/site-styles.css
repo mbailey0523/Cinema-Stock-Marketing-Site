@@ -14,6 +14,7 @@
 .navbar-default .navbar-nav > li > a {
     color: #e7eced;
     font-size: 24px;
+    font-weight: lighter;
 }
 
 .navbar > .container .navbar-brand {
@@ -23,6 +24,8 @@
 .navbar-brand {
     float: none;
     font-size: 24px;
+    font-weight: lighter;
+    vertical-align: middle;
 }
 
 .jumbotron {
@@ -112,12 +115,14 @@ h4 {
     margin-right: 24px;
     font-size: 20px;
     text-decoration: underline;
+    color: #29363b;
 }
 
 #web {
     clear: right;
     margin-top: 200px;
     margin-bottom: 150px;
+    margin-left: 63px;
 }
 
 .action {
@@ -144,6 +149,7 @@ h4 {
 #spend > a {
     font-size: 20px;
     text-decoration: underline;
+    color: #29363b;
 }
 
 #ipad-1 {
@@ -170,6 +176,7 @@ h4 {
     margin-right: 24px;
     font-size: 20px;
     text-decoration: underline;
+    color: #29363b;
 }
 
 .action p {
@@ -211,6 +218,7 @@ h5 {
 	color: #e7eced;
     padding: 0px;
     margin-bottom: 0px;
+    font-weight: lighter;
 }
 
 body {
@@ -224,37 +232,58 @@ ul {
 .left {
     float: left;
     margin-top: 27px;
-    margin-left: 181px;
+    margin-left: 125px;
     margin-bottom: 63px;
 }
 
 .middle {
     float: left;
     margin-top: 27px;
-    margin-left: 364px;
+    margin-left: 247px;
     margin-bottom: 63px;
-    margin-right: 364px;
+    margin-right: 246px;
 }
 
 .right {
     float: left;
     margin-top: 27px;
-    margin-right: 181px;
+    margin-right: 125px;
     margin-bottom: 63px;
 }
 
 .question {
     margin-bottom: 20px;
+    text-align: left;
+    font-weight: normal;
 }
 
 .answer {
     margin-bottom: 60px;
+    font-size: 30px;
 }
 
 .last-answer {
     margin-bottom: 150px;
+    font-size: 30px;
 }
 
 form {
     margin-bottom: 150px;
+    font-size: 20px;
+}
+
+.left a, .middle a, .right a {
+    color: #e7eced;
+    text-decoration: underline;
+}
+
+.container {
+    width: 1440px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+#faq {
+    padding-left: 60px;
+    padding-right: 60px;
 }

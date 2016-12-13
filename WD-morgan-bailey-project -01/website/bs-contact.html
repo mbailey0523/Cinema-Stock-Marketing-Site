@@ -41,9 +41,9 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="bs-features.html">Features</a></li>
-              <li><a href="bs-faq.html">FAQ</a></li>
-              <li><a href="bs-contact.html">Contact<span class="sr-only">(current)</span></a></li>
+                <li id="features"><a href="bs-features.html">Features</a></li>
+                <li id="faq"><a href="bs-faq.html">FAQ</a></li>
+                <li id="contact"><a href="bs-contact.html">Contact<span class="sr-only">(current)</span></a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -54,7 +54,7 @@
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
           <h1> Contact Us </h1>
-          <h2>Organize. Search. Share.</h2>
+          <h2>Cinema Stock</h2>
       </div>
 
     </div> <!-- /container -->
@@ -62,13 +62,13 @@
         <div>
         <h3 class="question">We Want to Hear From You!</h3>
         <p class="answer">
-            Duis iaculis mattis elementum. Vivamus turpis ex, scelerisque sed iaculis in, feugiat vel sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam ac neque ac dolor pretium suscipit vel eget odio. Mauris arcu nulla, blandit a ligula quis, convallis fermentum ipsum. Curabitur a metus sodales, molestie sapien vitae, fermentum nisl. Cras pulvinar magna quam, rhoncus luctus mi hendrerit tincidunt. Integer lorem turpis, placerat id urna vel, gravida hendrerit elit. Praesent et orci quis est efficitur auctor. Aenean eu egestas sapien, vel posuere sapien.
+            Contact us by mail, email, or phone. Feel free to get in touch with us about questions that you might have that are not found in the FAQs page. Send us a message if you have new feature suggestions or if you have found bugs you want to report (or if you just want to send us fan mail.) We welcome any and all consstructive critisicim!
         </p>
     </div>
     <!-- <input type="button" value="Email Us" onclick="return(show_form());"> -->
     <div>
-        <h3 class="question">Send us an email.</h3>
-        <form name="sendEmail" action="email.php" method="post" onsubmit="return(validate());">
+        <h3 class="question">Send us an email</h3>
+        <form name="sendEmail" action="scripts/email.php" method="post" onsubmit="return(validate());">
             <label>To:</label>
             <input type="text" name="to" id="to" value="cinema_stock@email.com" size="25" readonly="readonly"><br>
             <label>From:</label>
@@ -120,18 +120,18 @@
         <div class="middle">
             <h5>FAQs</h5>
             <ul>
-                <li>Organize</li>
-                <li>Search</li>
-                <li>Share</li>
+                <li>How do I report a bug?</li>
+                <li>How do I add movies?</li>
+                <li>Can I watch a movie from the app?</li>
                 <li><a href="bs-faqs.html">Learn more ></a></li>
             </ul>
         </div>
         <div class="right">
             <h5>Contact Us</h5>
             <ul>
-                <li>Organize</li>
-                <li>Search</li>
-                <li>Share</li>
+                <li>(123)-456-789</li>
+                <li>cinemastock@email.com</li>
+                <li>9876 Street Rd. Cityville, IN 54321</li>
                 <li><a href="bs-contact.html">Learn more ></a></li>
             </ul>
         </div>
