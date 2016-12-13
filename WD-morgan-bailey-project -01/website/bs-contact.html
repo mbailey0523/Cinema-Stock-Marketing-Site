@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Cinema Stock: Contact</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="styles/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
+
+    <!-- Custom styles for this template -->
+    <link href="styles/css/navbar-fixed-top.css" rel="stylesheet">
+    <link href="styles/css/site-styles.css" rel="stylesheet">
+
+    <!-- JavaScript Scripts -->
+    <script src="scripts/form_validation.js"></script>
+  </head>
+  <body>
+
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <img src="images/Logo.png" alt="logo">
+            <a class="navbar-brand" href="bs-landing.html">Cinema Stock</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="bs-features.html">Features</a></li>
+              <li><a href="bs-faq.html">FAQ</a></li>
+              <li><a href="bs-contact.html">Contact<span class="sr-only">(current)</span></a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+
+      <div class="jumbo_container">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+          <h1> Contact Us </h1>
+          <h2>Organize. Search. Share.</h2>
+      </div>
+
+    </div> <!-- /container -->
+    <div class="content">
+        <div>
+        <h3 class="question">We Want to Hear From You!</h3>
+        <p class="answer">
+            Duis iaculis mattis elementum. Vivamus turpis ex, scelerisque sed iaculis in, feugiat vel sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam ac neque ac dolor pretium suscipit vel eget odio. Mauris arcu nulla, blandit a ligula quis, convallis fermentum ipsum. Curabitur a metus sodales, molestie sapien vitae, fermentum nisl. Cras pulvinar magna quam, rhoncus luctus mi hendrerit tincidunt. Integer lorem turpis, placerat id urna vel, gravida hendrerit elit. Praesent et orci quis est efficitur auctor. Aenean eu egestas sapien, vel posuere sapien.
+        </p>
+    </div>
+    <!-- <input type="button" value="Email Us" onclick="return(show_form());"> -->
+    <div>
+        <h3 class="question">Send us an email.</h3>
+        <form name="sendEmail" action="email.php" method="post" onsubmit="return(validate());">
+            <label>To:</label>
+            <input type="text" name="to" id="to" value="cinema_stock@email.com" size="25" readonly="readonly"><br>
+            <label>From:</label>
+            <input type="text" name="from" value=""><br><br>
+
+            <label>Subject:</label>
+            <select name="subject">
+                <option value="-1">[choose one]</option>
+                <option value="question">Questions not in FAQs</option>
+                <option value="bug">Report a Bug</option>
+                <option value="suggestions">New Feature Suggestions</option>
+                <option value="fan">Fan Mail</option>
+            </select><br><br>
+
+            <label>First name:</label>
+            <input type="text" name="firstname" value=""><br>
+            <label>Last name:</label>
+            <input type="text" name="lastname" value=""><br><br>
+
+            <label>Message:</label><br>
+            <textarea name="message" id="message" rows="15" cols="70" required>
+            </textarea><br><br>
+
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    <!-- <div>
+        <p> Add a button that when clicked displays the most recently submited feature request.
+        </p>
+    </div> -->
+    <div class="action">
+        <img class="apple" src="images/apple.png" alt="download on the apple store">
+        <img class="google" src="images/google_play.png" alt="download on the google play">
+        <p>
+            Download Cinema Stock from the App Store for iOS or from Google Play for Android.
+        </p>
+    </div>
+    </div>
+    <footer>
+        <div class="left">
+            <h5>Cinema Stock</h5>
+            <ul>
+                <li>Organize</li>
+                <li>Search</li>
+                <li>Share</li>
+                <li><a href="bs-features.html">Learn more ></a></li>
+            </ul>
+        </div>
+        <div class="middle">
+            <h5>FAQs</h5>
+            <ul>
+                <li>Organize</li>
+                <li>Search</li>
+                <li>Share</li>
+                <li><a href="bs-faqs.html">Learn more ></a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <h5>Contact Us</h5>
+            <ul>
+                <li>Organize</li>
+                <li>Search</li>
+                <li>Share</li>
+                <li><a href="bs-contact.html">Learn more ></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
