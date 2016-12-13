@@ -15,7 +15,7 @@
     <link href="styles/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
 
     <!-- Custom styles for this template -->
     <link href="styles/css/navbar-fixed-top.css" rel="stylesheet">
@@ -46,7 +46,7 @@
       </div>
     </nav>
 
-    <div class="container">
+    <div class="jumbo_container">
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
@@ -56,50 +56,52 @@
 
     </div> <!-- /container -->
     <div>
-        <h3>Organize.</h3>
+        <div id="section-1">
             <div>
                 <div>
-                    <img src="images/iPad_Air.png" alt="app on ipad">
+                    <img id="ipad-1" class="pull-left"  src="images/iPad_Air.png" alt="app on ipad">
                 </div>
-                <h4>
+                <h3 id="organize" class="pull-right">Organize.</h3>
+                <h4 id="always" class="pull-right">
                     Always know what you have and what you want.<br>
                     <a href="bs-features.html">Learn more ></a>
                 </h4>
             </div>
         </div>
-        <div>
-            <h3>Search.</h3>
+        <div id="section-2">
             <div>
                 <div>
-                    <img src="images/iPad.png" alt="app on ipad">
+                    <img id="ipad-2" class="pull-right" src="images/iPad.png" alt="app on ipad">
                 </div>
-                <h4>
-                    Spend more time watching your movies and less time picking them.<br>
+                <h3 id="search" class="pull-left">Search.</h3>
+                <h4 id="spend" class="pull-left">
+                    Spend more time watching movies and less time picking them.<br>
                     <a href="bs-features.html">Learn more ></a>
                 </h4>
             </div>
         </div>
-        <div>
-            <h3>Share.</h3>
+        <div id="section-3">
             <div>
                 <div>
-                    <img src="images/share.png" alt="sharing web">
+                    <img id="web" class="pull-left" src="images/share.png" alt="sharing web">
                 </div>
-                <h4>
+                <h3 id="share" class="pull-right">Share.</h3>
+                <h4 id="loan" class="pull-right">
                     Loan your DVDs and share your cinematic experiences.<br>
                     <a href="bs-features.html">Learn more ></a>
                 </h4>
             </div>
         </div>
-        <div>
-            <img src="images/apple.png" alt="download on the apple store">
-            <img src="images/google_play.png" alt="download on the google play">
+        <div class="action">
+            <img class="apple" src="images/apple.png" alt="download on the apple store">
+            <img class="google" src="images/google_play.png" alt="download on the google play">
             <p>
                 Download Cinema Stock from the App Store for iOS or from Google Play for Android.
             </p>
         </div>
+    </div>
         <footer>
-            <div>
+            <div class="left">
                 <h5>Cinema Stock</h5>
                 <ul>
                     <li>Organize</li>
@@ -108,7 +110,7 @@
                     <li><a href="bs-features.html">Learn more ></a></li>
                 </ul>
             </div>
-            <div>
+            <div class="middle">
                 <h5>FAQs</h5>
                 <ul>
                     <li>Organize</li>
@@ -117,7 +119,7 @@
                     <li><a href="bs-faqs.html">Learn more ></a></li>
                 </ul>
             </div>
-            <div>
+            <div class="right">
                 <h5>Contact Us</h5>
                 <ul>
                     <li>Organize</li>

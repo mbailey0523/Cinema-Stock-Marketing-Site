@@ -15,7 +15,7 @@
     <link href="styles/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
 
     <!-- Custom styles for this template -->
     <link href="styles/css/navbar-fixed-top.css" rel="stylesheet">
@@ -49,7 +49,7 @@
         </div>
       </nav>
 
-    <div class="container">
+      <div class="jumbo_container">
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
@@ -58,15 +58,16 @@
       </div>
 
     </div> <!-- /container -->
-    <div>
-        <h3>We Want to Hear From You!</h3>
-        <p>
+    <div class="content">
+        <div>
+        <h3 class="question">We Want to Hear From You!</h3>
+        <p class="answer">
             Duis iaculis mattis elementum. Vivamus turpis ex, scelerisque sed iaculis in, feugiat vel sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam ac neque ac dolor pretium suscipit vel eget odio. Mauris arcu nulla, blandit a ligula quis, convallis fermentum ipsum. Curabitur a metus sodales, molestie sapien vitae, fermentum nisl. Cras pulvinar magna quam, rhoncus luctus mi hendrerit tincidunt. Integer lorem turpis, placerat id urna vel, gravida hendrerit elit. Praesent et orci quis est efficitur auctor. Aenean eu egestas sapien, vel posuere sapien.
         </p>
     </div>
     <!-- <input type="button" value="Email Us" onclick="return(show_form());"> -->
     <div>
-        <h3>Send us an email.</h3>
+        <h3 class="question">Send us an email.</h3>
         <form name="sendEmail" action="email.php" method="post" onsubmit="return(validate());">
             <label>To:</label>
             <input type="text" name="to" id="to" value="cinema_stock@email.com" size="25" readonly="readonly"><br>
@@ -94,19 +95,20 @@
             <input type="submit" value="Send">
         </form>
     </div>
-    <div>
+    <!-- <div>
         <p> Add a button that when clicked displays the most recently submited feature request.
         </p>
-    </div>
-    <div>
-        <img src="images/apple.png" alt="download on the apple store">
-        <img src="images/google_play.png" alt="download on the google play">
+    </div> -->
+    <div class="action">
+        <img class="apple" src="images/apple.png" alt="download on the apple store">
+        <img class="google" src="images/google_play.png" alt="download on the google play">
         <p>
             Download Cinema Stock from the App Store for iOS or from Google Play for Android.
         </p>
     </div>
+    </div>
     <footer>
-        <div>
+        <div class="left">
             <h5>Cinema Stock</h5>
             <ul>
                 <li>Organize</li>
@@ -115,7 +117,7 @@
                 <li><a href="bs-features.html">Learn more ></a></li>
             </ul>
         </div>
-        <div>
+        <div class="middle">
             <h5>FAQs</h5>
             <ul>
                 <li>Organize</li>
@@ -124,7 +126,7 @@
                 <li><a href="bs-faqs.html">Learn more ></a></li>
             </ul>
         </div>
-        <div>
+        <div class="right">
             <h5>Contact Us</h5>
             <ul>
                 <li>Organize</li>
