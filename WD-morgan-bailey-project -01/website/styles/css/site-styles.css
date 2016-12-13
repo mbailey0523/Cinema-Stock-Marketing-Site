@@ -1,0 +1,260 @@
+.navbar.navbar-default.navbar-fixed-top {
+    background-color: #005a63;
+    padding-top: 10px;
+}
+
+.navbar-default .navbar-brand {
+    color: #e7eced;
+}
+
+.navbar {
+    min-height: 72px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #e7eced;
+    font-size: 24px;
+}
+
+.navbar > .container .navbar-brand {
+    margin-left: 0px;
+}
+
+.navbar-brand {
+    float: none;
+    font-size: 24px;
+}
+
+.jumbotron {
+    height: 562px;
+    padding-top: 201px;
+    padding-bottom: 201px;
+    padding-left: 388px;
+    padding-right: 388px;
+    background-color: #b2ebf1;
+    margin-bottom: 17px;
+}
+
+.jumbotron h1 {
+	font-family: Helvetica;
+	font-size: 100px;
+	font-weight: bold;
+	text-align: center;
+	color: #29363b;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 100px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+.jumbotron h2 {
+	font-family: Helvetica;
+	font-size: 45px;
+	text-align: center;
+	color: #3a4c53;
+}
+
+h3 {
+    font-family: Helvetica;
+	font-size: 64px;
+	font-weight: bold;
+	color: #ff5533;
+}
+
+h4 {
+	font-family: Helvetica;
+	font-size: 36px;
+	font-weight: 300;
+	color: #29363b;
+}
+
+.content {
+    margin: auto;
+    max-width: 1068px;
+}
+
+#section-1, #section-2, #section-3 {
+    position: relative;
+}
+
+#search {
+    float: left;
+    margin-top: 280px;
+    margin-left: 287px;
+    margin-right: 171px;
+    margin-bottom: 0px;
+}
+
+#share {
+    float: right;
+    margin-left: 430px;
+    margin-right: 305px;
+    margin-bottom: 0px;
+    margin-top: 386px;
+}
+
+#loan {
+    margin-left: 290px;
+    margin-right: 166px;
+    text-align: center;
+    width: 475px;
+    height: 86px;
+}
+
+#loan > a {
+    float: right;
+    margin-right: 24px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#web {
+    clear: right;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+.action {
+    clear: both;
+    position: relative;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#ipad-2 {
+    clear: left;
+    margin-top: 224px;
+    margin-right: 36px;
+}
+
+#spend {
+    width: 446px;
+    height: 129px;
+    text-align: left;
+    margin-left: 180px;
+    margin-right: 64px;
+}
+
+#spend > a {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#ipad-1 {
+    margin-left: 89px;
+}
+
+#organize {
+    margin-top: 193px;
+    margin-right: 301px;
+    margin-left: 324px;
+    margin-bottom: 0px;
+}
+
+#always {
+    margin-left: 247px;
+    margin-right: 224px;
+    text-align: center;
+    width: 446px;
+    height: 86px;
+}
+
+#always > a {
+    float: right;
+    margin-right: 24px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.action p {
+    font-family: Helvetica;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ff5533;
+}
+
+.apple {
+    margin: 36px;
+}
+
+.google {
+    margin: 36px;
+}
+
+p {
+    font-size: 24px;
+}
+
+footer {
+    height: 202px;
+	background-color: #005a63;
+    clear: both;
+    position: static;
+}
+
+h5 {
+    font-family: Helvetica;
+	font-size: 20px;
+	color: #e7eced;
+    margin: 0px;
+}
+
+.left ul, .middle ul, .right ul {
+    font-family: Helvetica;
+	font-size: 18px;
+	color: #e7eced;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+body {
+    line-height: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+.left {
+    float: left;
+    margin-top: 27px;
+    margin-left: 181px;
+    margin-bottom: 63px;
+}
+
+.middle {
+    float: left;
+    margin-top: 27px;
+    margin-left: 364px;
+    margin-bottom: 63px;
+    margin-right: 364px;
+}
+
+.right {
+    float: left;
+    margin-top: 27px;
+    margin-right: 181px;
+    margin-bottom: 63px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.answer {
+    margin-bottom: 60px;
+}
+
+.last-answer {
+    margin-bottom: 150px;
+}
+
+form {
+    margin-bottom: 150px;
+}
