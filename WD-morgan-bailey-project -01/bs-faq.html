@@ -9,20 +9,17 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Cinema Stock: Contact</title>
+    <title>Cinema Stock: FAQ</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="styles/css/bootstrap.min.css" rel="stylesheet">
+    <link href="website/styles/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!-- <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
 
     <!-- Custom styles for this template -->
-    <link href="styles/css/navbar-fixed-top.css" rel="stylesheet">
-    <link href="styles/css/site-styles.css" rel="stylesheet">
-
-    <!-- JavaScript Scripts -->
-    <script src="scripts/form_validation.js"></script>
+    <link href="website/styles/css/navbar-fixed-top.css" rel="stylesheet">
+    <link href="website/styles/css/site-styles.css" rel="stylesheet">
   </head>
   <body>
 
@@ -36,7 +33,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <img src="images/Logo.png" alt="logo">
+            <img src="website/images/Logo.png" alt="logo">
             <a class="navbar-brand" href="index.html">Cinema Stock</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
@@ -53,55 +50,81 @@
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
-          <h1> Contact Us </h1>
+          <h1> FAQs </h1>
           <h2>Cinema Stock</h2>
       </div>
 
     </div> <!-- /container -->
     <div class="content">
         <div>
-        <h3 class="question">We Want to Hear From You!</h3>
+        <h3 class="question">How do I add a movie that I own?</h3>
         <p class="answer">
-            Contact us by mail, email, or phone. Feel free to get in touch with us about questions that you might have that are not found in the FAQs page. Send us a message if you have new feature suggestions or if you have found bugs you want to report (or if you just want to send us fan mail.) We welcome any and all consstructive critisicim!
+            Cinema Stock makes it easy to add movies to your inventory. Just tap on the plus in the top left corner while you are on the inventory page and fill in the fields with the information about the movie.
         </p>
     </div>
-    <!-- <input type="button" value="Email Us" onclick="return(show_form());"> -->
     <div>
-        <h3 class="question">Send us an email</h3>
-        <form name="sendEmail" action="scripts/email.php" method="post" onsubmit="return(validate());">
-            <label>To:</label>
-            <input type="text" name="to" id="to" value="cinema_stock@email.com" size="25" readonly="readonly"><br>
-            <label>From:</label>
-            <input type="text" name="from" value=""><br><br>
-
-            <label>Subject:</label>
-            <select name="subject">
-                <option value="-1">[choose one]</option>
-                <option value="question">Questions not in FAQs</option>
-                <option value="bug">Report a Bug</option>
-                <option value="suggestions">New Feature Suggestions</option>
-                <option value="fan">Fan Mail</option>
-            </select><br><br>
-
-            <label>First name:</label>
-            <input type="text" name="firstname" value=""><br>
-            <label>Last name:</label>
-            <input type="text" name="lastname" value=""><br><br>
-
-            <label>Message:</label><br>
-            <textarea name="message" id="message" rows="15" cols="70" required>
-            </textarea><br><br>
-
-            <input type="submit" value="Send">
-        </form>
-    </div>
-    <!-- <div>
-        <p> Add a button that when clicked displays the most recently submited feature request.
+        <h3 class="question">How do I add my friend's contact information?</h3>
+        <p class="answer">
+            Go to the loaning page and tap the plus in the corner. Then fill in your contact’s information and tap save. Now, you can use this information to help you keep track of who has borrowed your DVDs.
         </p>
-    </div> -->
+    </div>
+    <div>
+        <h3 class="question">How do I view a movie's details?</h3>
+        <p class="answer">
+            Tap the DVD cover to slide the next row down. This will reveal all of the details you have entered for that movie, including title, release year, rating, description, cast, and more.
+        </p>
+    </div>
+    <div>
+        <h3 class="question">Why do I need to log in?</h3>
+        <p class="answer">
+            Logging in to Cinema Stock helps to keep everything updated across all of your devices. It also helps keep your contacts safe and secure.
+        </p>
+    </div>
+    <div>
+        <h3 class="question">Where can I download the app?</h3>
+        <p class="answer">
+            Cinema Stock is available on both the Apple store and Google Play for iOS and Android. The app is also available for computer download from the Mac App Store or GitHub.
+        </p>
+    </div>
+    <div>
+        <h3 class="question">Can I use the app offline?</h3>
+        <p class="answer">
+            Not yet, but there are plans for offline access in the near future. If you have ideas on how to accomplish this, send us a message from or contact page.
+        </p>
+    </div>
+    <div>
+        <h3 class="question">If I add a movie using my computer, will I be able to update it on my phone?</h3>
+        <p class="answer">
+            Yes. Cinema Stock lets you sync your inventory, contacts, and wishlist across all of your devices. Syncing keeps everything up to date and available on your computer, tablet, and phone.
+        </p>
+    </div>
+    <div>
+        <h3 class="question">How do I report a bug?</h3>
+        <p class="answer">
+            Just head over to our contact page and send us a message! Be sure to set the subject as “Report a Bug”.
+        </p>
+    </div>
+    <div>
+        <h3 class="question">Can I store and watch digital copies of my movies using Cinema Stock?</h3>
+        <p class="answer">
+            Cinema Stock is only for keeping a digital list of your DVDs. You cannot store digital copies of your movies in Cinema Stock.
+        </p>
+    </div>
+    <div>
+        <h3 class="question">I just got a movie that is on my wishlist. How do I move it from my wishlist to my movies?</h3>
+        <p class="answer">
+            You don’t! Cinema Stock was made to handle that for you automatically.
+        </p>
+    </div>
+    <div>
+        <h3 class="question">Why are there two ratings categories?</h3>
+        <p class="answer">
+            The user ratings are how you have rated the movies. The MP Ratings are the ratings you find on the back of the DVD cases, such as G, PG, PG-13, and R.
+        </p>
+    </div>
     <div class="action">
-        <img class="apple" src="images/apple.png" alt="download on the apple store">
-        <img class="google" src="images/google_play.png" alt="download on the google play">
+        <img class="apple" src="website/images/apple.png" alt="download on the apple store">
+        <img class="google" src="website/images/google_play.png" alt="download on the google play">
         <p>
             Download Cinema Stock from the App Store for iOS or from Google Play for Android.
         </p>
@@ -136,6 +159,7 @@
             </ul>
         </div>
     </footer>
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
